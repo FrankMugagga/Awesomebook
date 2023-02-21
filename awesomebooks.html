@@ -15,15 +15,19 @@
 
         </ul> 
         
-        <button class="remove">Remove</button>
-        <hr class="seperator">
+        <!--<button class="remove">Remove</button>
+        <hr class="seperator"> -->
 
         <form id="form" action="">
             <label for="title" hidden></label>
-            <input type="text" class="title" id="title" name="title" placeholder="Title" required><br>
+            <input type="text" class="title" id="title" name="title" placeholder="Title" required/><br>            
+
 
             <label for="author" hidden></label>
-            <input type="text" class="author" id="author" name="author" placeholder="Author" required><br>
+            <input type="text" class="author" id="author" name="author" placeholder="Author" required/><br>
+
+            <span id="error"></span>
+            <br>
             <button type="submit" id="add">Add</button>
         </form>
 
